@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openai-python-cache"
-version = "0.1.0"
+version = "0.2.0"
 description = "A thin wrapper around the OpenAI Python bindings for caching responses."
 authors = ["Ray Chen <ray@raychen.io>"]
 readme = "README.md"

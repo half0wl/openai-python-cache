@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "openai-python-cache"
+version = "0.1.0"
+description = "A thin wrapper around the OpenAI Python bindings for caching responses."
+authors = ["Ray Chen <ray@raychen.io>"]
+readme = "README.md"
+packages = [{include = "openai_python_cache", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

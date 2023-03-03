@@ -1,6 +1,6 @@
-# openai_python_cache
+# 🍰 openai-python-cache
 
-This is a thin wrapper around the OpenAI Python bindings for caching responses.
+A thin wrapper around the OpenAI Python bindings for caching responses.
 
 ## Motivation
 

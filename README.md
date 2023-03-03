@@ -20,10 +20,10 @@ part out (yet?)!
 
 ```sh
 # Using pip:
-$ pip install openai_python_cache
+$ pip install openai-python-cache
 
 # Using poetry:
-$ poetry add openai_python_cache
+$ poetry add openai-python-cache
 ```
 
 ## Usage

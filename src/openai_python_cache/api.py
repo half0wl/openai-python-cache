@@ -4,7 +4,7 @@ from typing import Optional
 from openai import ChatCompletion, util
 from openai.error import TryAgain
 
-from src.openai_python_cache.provider import Sqlite3CacheProvider
+from .provider import Sqlite3CacheProvider
 
 
 class ChatCompletion(ChatCompletion):

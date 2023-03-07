@@ -1,3 +1,4 @@
+import json
 import time
 
 from typing import Optional
@@ -35,7 +36,7 @@ class ChatCompletion(ChatCompletion):
             cached_response = cache_provider.get(cache_key)
             if cached_response:
                 # Cache hit, return the cached response
-                return cached_response
+                return json.loads(cached_response)
 
             # Cache miss, make the request and cache it
             while True:
